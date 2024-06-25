@@ -1,0 +1,5 @@
+Steps:
+1) Create evn for current project
+2) Python code for streamlit
+3) Go to env -> Scripts ->activate using cmd 
+4) On current folder run command as streamlit run app.py
