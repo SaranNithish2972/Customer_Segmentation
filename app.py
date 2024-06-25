@@ -11,7 +11,7 @@ st.title('Mall Customers Segmentation')
 
 # Function to load the default dataset
 def load_default_data():
-    return pd.read_csv('C:/Users/hp/Downloads/Mall_Customers.csv')
+    return pd.read_csv('Mall_Customers.csv')
 
 # Load the dataset
 df = load_default_data()
