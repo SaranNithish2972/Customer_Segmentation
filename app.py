@@ -38,14 +38,14 @@ for i in range(1, 11):
     kmeans.fit(X_scaled)
     wcss.append(kmeans.inertia_)
 
-# Plot the elbow graph
-st.write("Elbow Method for Optimal Number of Clusters")
-plt.figure(figsize=(10, 5))
-plt.plot(range(1, 11), wcss, marker='o')
-plt.title('Elbow Method')
-plt.xlabel('Number of clusters')
-plt.ylabel('WCSS')
-st.pyplot(plt)
+# # Plot the elbow graph
+# st.write("Elbow Method for Optimal Number of Clusters")
+# plt.figure(figsize=(10, 5))
+# plt.plot(range(1, 11), wcss, marker='o')
+# plt.title('Elbow Method')
+# plt.xlabel('Number of clusters')
+# plt.ylabel('WCSS')
+# st.pyplot(plt)
 
 # KMeans Clustering
 kmeans = KMeans(n_clusters=5, init='k-means++', random_state=0)
