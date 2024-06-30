@@ -19,10 +19,10 @@ st.write("Using default dataset as no file was uploaded.")
 st.write("Dataset Head:")
 st.dataframe(df.head())
 
-buffer = io.StringIO()
-df.info(buf=buffer)
-s = buffer.getvalue()
-st.text(s)
+# buffer = io.StringIO()
+# df.info(buf=buffer)
+# s = buffer.getvalue()
+# st.text(s)
 
 # Selecting features
 X = df[['Annual Income (k$)', 'Spending Score (1-100)']].values
