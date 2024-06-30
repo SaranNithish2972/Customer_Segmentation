@@ -15,7 +15,7 @@ def load_default_data():
 
 # Load the dataset
 df = load_default_data()
-st.write("Using default dataset as no file was uploaded.")
+# st.write("Using default dataset as no file was uploaded.")
 st.write("Dataset Head:")
 st.dataframe(df.head())
 
