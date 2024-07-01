@@ -78,5 +78,18 @@ if st.button("Predict Cluster"):
     
     # Predict the cluster
     predicted_cluster = kmeans.predict(new_data_scaled)
-    
+
+    cluster_description = ""
+    if predicted_cluster[0] == 0:
+        cluster_description = "People in this group have average income and average spending score."
+    elif predicted_cluster[0] == 1:
+        cluster_description = "People in this group have high income and high spending score."
+    elif predicted_cluster[0] == 2:
+        cluster_description = "People in this group have low income and low spending score."
+    elif predicted_cluster[0] == 3:
+        cluster_description = "People in this group have high income and low spending score."
+    elif predicted_cluster[0] == 4:
+        cluster_description = "People in this group have low income and high spending score."
+
     st.write(f"The predicted cluster for the new customer is: {predicted_cluster[0]}")
+    st.write(cluster_description)
