@@ -83,7 +83,7 @@ if st.button("Predict Cluster"):
     if predicted_cluster[0] == 0:
         cluster_description = "People in the group have average income and average spending score."
     elif predicted_cluster[0] == 1:
-        cluster_description = "People in the group have high income and high spending score.."
+        cluster_description = "People in the group have high income and high spending score."
     elif predicted_cluster[0] == 2:
         cluster_description = "People in the group have high income but low spending scores. People in the group are very cautious about what they are buying."
     elif predicted_cluster[0] == 3:
