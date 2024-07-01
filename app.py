@@ -54,9 +54,6 @@ Y = kmeans.fit_predict(X_scaled)
 # Add cluster to the dataframe
 df['Cluster'] = Y
 
-# Display the clusters
-st.write("Clusters in the dataset:")
-st.dataframe(df.head())
 
 # Visualize the clusters
 st.write("Cluster Visualization")
