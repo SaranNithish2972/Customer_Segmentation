@@ -15,3 +15,7 @@
 <h4>Suggestions:</h4>
 1) Mall can give offers to the people who are not buying too much.<br>
 2) For Group 2 and group 3 people the mall can give discounts and offers using membership cards, so that they tend to buy more products in the mall which increases profit to the mall and brings customer satisfaction.
+
+OUTPUT SCREENSHOTS:
+![1](https://github.com/SaranNithish2972/Customer_Segmentation/assets/86521131/821abd27-a62a-4ce6-9684-a5a7094fb66e)
+![2](https://github.com/SaranNithish2972/Customer_Segmentation/assets/86521131/85b55ef5-bae7-42ec-8f1e-e1252fef1700)
